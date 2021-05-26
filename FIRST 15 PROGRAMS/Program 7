@@ -1,0 +1,31 @@
+Write a java program to display first 10 natural numbers
+CODE -
+
+class natural {
+    
+  public static void main(String[] args)
+    {     
+    int i;
+	System.out.println ("The first 10 natural numbers are:\n");
+	for (i=1;i<=10;i++)
+	{      
+		System.out.println (i);
+	}
+System.out.println ("\n");
+}
+}
+
+OUTPUT -
+
+The first 10 natural numbers are:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
