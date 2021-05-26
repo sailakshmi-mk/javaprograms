@@ -1,0 +1,13 @@
+Write a Java program to print the sum of two numbers
+CODE -
+
+public class Main
+{
+    public static void main(String[]args)
+    {
+        System.out.println(60+40);
+    }
+}
+
+OUTPUT -
+100
