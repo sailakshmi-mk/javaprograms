@@ -1,0 +1,27 @@
+11.java program to access array elements 
+
+code:
+
+class Main {
+ public static void main(String[] args) {
+  
+   // create an array
+   int[] num = {12, 4, 5, 2};
+
+   // access each array elements
+   System.out.println("Accessing Elements of Array:");
+   System.out.println("First Element: " + num[0]);
+   System.out.println("Second Element: " + num[1]);
+   System.out.println("Third Element: " + num[2]);
+   System.out.println("Fourth Element: " + num[3]);
+   
+ }
+}
+
+output:
+
+Accessing Elements of Array:
+First Element: 12
+Second Element: 4
+Third Element: 5
+Fourth Element: 2
