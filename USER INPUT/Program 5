@@ -1,0 +1,42 @@
+Print the largest element in an array
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements :");
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+		int max=a[0];
+		for(int i=0;i<s;i++){
+		    if(max<a[i]){
+		        max=a[i];
+		    }
+		}
+	  System.out.println("Max element :"+max);
+	}
+}
+
+......................................................................
+OUTPUT
+
+Enter the elements :
+
+33
+
+44
+
+66
+
+77
+
+99
+
+Max element :99
+
+
+...........................................................................
