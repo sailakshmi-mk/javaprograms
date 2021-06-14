@@ -1,0 +1,39 @@
+Print the number of elements present in an array
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements :");
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+	int c=0;
+     for(int i=0;i<s;i++){
+         c=c+1;
+     }
+	  System.out.println("Numer of elements :"+ c);
+	}
+}
+
+..............................................................
+OUTPUT
+
+Enter the elements :
+
+34
+
+22
+
+65
+
+78
+
+95
+
+Numer of elements :5
+
+.................................................................
