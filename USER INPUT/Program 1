@@ -1,0 +1,73 @@
+Print the elements of an array
+
+ SCANNER CLASS
+'''''''''''''''
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements :");
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+	 System.out.println("printing elements of an array (Scanner class):");
+     for(int i=0;i<s;i++){
+     System.out.print(" "+ a[i]);
+     }
+
+	}
+}
+...................................................................................
+OUTPUT
+
+Enter the elements :
+
+1
+
+2
+
+3
+
+4
+
+5
+
+printing elements of an array (Scanner class):
+
+ 1 2 3 4 5
+...................................................................................
+
+BUFFERED READER
+'''''''''''''''
+import java.util.*;
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) throws IOException {
+BufferedReader in = new BufferedReader(new InputStreamReader(System.in)); 
+
+String[] a = new String[5]; 
+
+System.out.print("Enter the elements in the same line seperated by space: "); 
+a = in.readLine().split(" "); 
+
+System.out.println("Elements of the array :");
+for(int i=0;i<a.length;i++){
+System.out.print(" "+a[i]);
+    
+}
+}
+}
+............................................................................................
+OUTPUT
+
+Enter the elements in the same line seperated by space: 1 2 3 4 5 
+
+Elements of the array :
+
+ 1 2 3 4 5
+
+.............................................................................................
