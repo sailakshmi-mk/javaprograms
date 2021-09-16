@@ -1,0 +1,1 @@
+Create a Graphics package that has classes and interfaces for figures Rectangle, Triangle, Square and Circle. Test the package by finding the area of these figures.![Screenshot (94)](https://user-images.githubusercontent.com/80004492/133682660-d2fb4444-00c2-4685-a19d-1d78439d41db.png)
