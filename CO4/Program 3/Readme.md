@@ -1,0 +1,1 @@
+Write a user defined exception class to authenticate the user name and password.![Screenshot (96)](https://user-images.githubusercontent.com/80004492/133684265-2c696cdf-e399-41b6-b2cd-c5897ccaca6c.png)
