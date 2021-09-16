@@ -1,0 +1,1 @@
+Create CPU with attribute price. Create inner class Processor (no. of cores, manufacturer) and static nested class RAM (memory, manufacturer). Create an object of CPU and print information of Processor and RAM.![Screenshot (85)](https://user-images.githubusercontent.com/80004492/133676731-150a79f9-c452-405f-8fd7-414ccc78a52b.png)
