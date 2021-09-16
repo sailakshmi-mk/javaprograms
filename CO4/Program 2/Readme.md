@@ -1,0 +1,1 @@
+Create an Arithmetic package that has classes and interfaces for the 4 basic arithmetic operations. Test the package by implementing all operations on two given numbers![Screenshot (95)](https://user-images.githubusercontent.com/80004492/133683793-ce358957-9f04-431f-b553-c5b0e34acfcb.png)
